@@ -1,0 +1,471 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td,button { margin:0;padding:0;border:0;outline:none;}
+table {border-collapse:collapse;border-spacing:0;}
+fieldset, img {border: 0;}
+address, caption, cite, code, dfn, em, strong, th, var {font-style: normal;font-weight: normal;}
+ol, ul, li { list-style: none;}
+h1, h2, h3, h4, h5, h6,p{font-size: 100%;font-weight: normal;}
+a { color: #000;text-decoration: none;}
+a:active { color: #000;}
+.clearfix:after { content: "."; display: block;height: 0;clear: both;visibility: hidden;}
+.clear {clear: both;}
+html {font-size: 12px;-webkit-font-smoothing: antialiased;}
+@media only screen and (min-width: 375px) { html { font-size: 14px !important;}}
+@media only screen and (min-width: 480px) {html {font-size: 16px !important;}}
+body {-webkit-tap-highlight-color: rgba(0, 0, 0, 0);background: #fff;font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif; font-size: 14px;}
+img{max-width:100%;height:auto;display:block;}
+/*--------头部 start------*/
+.head{ height: 87px; width: 100%; max-width: 1920px; background: #fff;}
+.head .headMidle{ width: 1030px; margin: 0 auto; position: relative;}
+.head .headMidle .gongMax{ position: absolute; right: 40px; top: 87px;display: none;}
+.head .headMidle .weixiMax{ position: absolute; right: -38px; top: 87px;display: none;}
+.head .headMidle a{ width: 240px;  display: block; float: left;}
+.head .headMidle .aside{ float: right; width: 180px; margin-top: 15px;}
+.head .headMidle  span{  display: block; float: left;text-align: center;}
+.head .headMidle  .gong{ width: 70px; display: block; float: left; height: 70px ; margin-right: 10px}
+.head .headMidle  .weixi{ width: 80px; display: block; float: left;height: 70px}
+.head .headMidle  span img{  display: block; width: 40px; margin: 0 auto;}
+.head .headMidle  span b{  display: block;  color: #000;  font-weight: normal;}
+.head .headMidle  .weixi b{ width: 80px;}
+.head .headMidle  .gong b{ width: 70px;}
+.indexBanner{ background: #ffd34f;width: 100%; max-width: 1920px;  }
+.indexBanner .bannerMidle{ width: 1030px; margin: 0 auto;}
+.indexBanner img{ background: #ffd34f; }
+/*--------头部 end------*/
+/*------微助手V1.0 start-----*/
+.indexIphone{width: 1030px; margin: 90px auto 50px; }
+.indexIphone h1{ width: 284px; margin: 0 auto; background: #3da738; height: 3px;}
+.indexIphone h4{ text-align: center; font-size: 36px; color: #454545;  margin-top: 10px; }
+.indexIphone .aside{ width: 624px; float: left; margin-top: 40px;}
+.indexIphone .article{ width: 400px; float: right;margin-top: 40px;}
+.indexIphone .article h2{ width: 82px; float: left; margin-top: 10px }
+.indexIphone .mt{ margin-top: 30px;}
+.indexIphone .text{ float: left; padding: 0 15px 0 25px; width: 270px;}
+.indexIphone .text h3{ font-size: 26px; color: #454545 }
+.indexIphone .text p{ font-size: 16px; color: #666; line-height: 25px}
+/*--------微助手V1.0  end------*/
+/*--------社群时代 start------*/
+.epoch{ width: 100%; max-width: 1920px; background: #fbfbfc;}
+.epoch .epochMain h1{ width: 215px; margin: 0 auto; background: #3da738; height: 3px;}
+.epoch .epochMain h4{ text-align: center; font-size: 36px; color: #454545; margin: 10px 0 20px }
+.epoch .epochMain{ width: 1030px; margin: 0 auto;  padding:45px 0 20px; position: relative;}
+.epoch .epochMain .epochImg{position: relative; left: 0%; top: 0px; width: 100%;}
+.epoch .epochMain .arcBg1{ display: block;}
+.epoch .epochMain .arcBg2{ display: none;}
+.epoch .epochMain .articleOne{ position: absolute; left: 7%; top: 31%; width: 192px}
+.epoch .epochMain .articleOne h2{ margin-bottom: 10px; text-align: center; font-size: 26px; color: #454545; }
+.epoch .epochMain .articleOne p{ text-align:center; font-size: 16px;color: #666; }
+.epoch .epochMain .articleTwo{ position: absolute; left: 26%; top:61%; width: 146px}
+.epoch .epochMain .articleTwo h2{ margin-bottom: 10px; text-align: center; font-size: 26px; color: #454545; }
+.epoch .epochMain .articleTwo p{ text-align:center; font-size: 16px;color: #666; }
+.epoch .epochMain .articleThere{ position: absolute; left: 42%; top:38%; width: 164px}
+.epoch .epochMain .articleThere h2{ margin-bottom: 10px; text-align: center; font-size: 26px; color: #454545; }
+.epoch .epochMain .articleThere p{ text-align:center; font-size: 16px;color: #666; }
+.epoch .epochMain .articleFours{ position: absolute; left: 57%; top:13%; width: 160px}
+.epoch .epochMain .articleFours h2{ margin-bottom: 10px; text-align: center; font-size:26px; color: #454545; }
+.epoch .epochMain .articleFours p{ text-align:center; font-size: 16px;color: #666; }
+.epoch .epochMain .articleFit{ position: absolute; left: 57%; top:67%; width: 130px}
+.epoch .epochMain .articleFit h2{ margin-bottom: 10px; text-align: center; font-size: 26px; color: #454545; }
+.epoch .epochMain .articleFit p{ text-align:center; font-size: 16px;color: #666; }
+.epoch .epochMain .articleSix{ position: absolute; left: 75%; top:36%; width:172px}
+.epoch .epochMain .articleSix h2{ margin-bottom: 10px; text-align: center; font-size: 26px; color: #454545; }
+.epoch .epochMain .articleSix p{ text-align:center; font-size: 16px;color: #666; }
+/*--------社群时代 end------*/
+/*--------我们的优势 start------*/ 
+.advantage{ width: 100%; max-width: 1920px; background: #fff;}
+.advantage .advantageMain h1{ width: 270px; margin: 0 auto; background: #3da738; height: 3px;}
+.advantage .advantageMain h4{ text-align: center; font-size: 36px; color: #454545; margin-top: 10px;}
+.advantage .advantageMain{ width: 1030px; margin: 0 auto;  padding:70px 0; position: relative;}
+.advantage ul{ margin-top: 50px;}
+.advantage ul li{ float: left; width: 25% }
+.advantage ul li h3{ color: #454545;font-size:26px;  text-align: center; margin-top: 20px;}
+.advantage ul li p{ color: #666;font-size:16px; text-align: center; padding-top: 5px;}
+.advantage ul li>div{ width: 175px; margin: 0 auto; }
+/*--------我们的优势 end------*/ 
+/*--------行业应用 start------*/ 
+.vocation{ width: 100%; max-width: 1920px; background: #fbfbfc;}
+.vocation .vocationMain h1{ width: 220px; margin: 0 auto; background: #3da738; height: 3px;}
+.vocation .vocationMain h4{ text-align: center; font-size: 36px; color: #454545; margin-top: 10px;}
+.vocation .vocationMain{ width: 1030px; margin: 0 auto;  padding:70px 0; position: relative;}
+.vocation .vocationText{ width: 100%; text-align: center; margin-bottom: 10px;}
+.vocation .vocationText .p1{width: 50%; float: left;  font-size: 30px; color: #38aebd; text-align: center;}
+.vocation .vocationText .p2{width: 50%; float: left; font-size: 30px; color: #83bc46; text-align: center;}
+.vocation .vocationMain  h3{ font-size: 30px; margin-top:10px; text-align: center; color: #d9b446}
+.vocation .vocationMain .vocationImg{position: relative; left: 0%; top: 0px; width: 100%;}
+.vocation .vocationMain .art1{ position: absolute; top: 10px; left: 20px; width:100%;}
+.vocation .vocationMain .art1 p{ width: 44%; float: left; margin-left: 2%;color: #666; font-size: 16px}
+.vocation .vocationMain .art1 p span{  text-align:left; float: left; }
+.vocation .vocationMain .art1 p b{  text-align:right; font-weight: normal; float: right; margin-right: 23px}
+.vocation .vocationMain .art1 h6{width: 43%; float: right;font-size: 18px;margin-right: 3%; color: #666 }
+.vocation .vocationMain .art1 h6 span{  text-align:left; float: left;}
+.vocation .vocationMain .art1 h6 b{  text-align:right; font-weight: normal; float: right; margin-right: 23px;}
+.vocation .vocationMain .art2{ position: absolute; top: 138px; left: 0; width:98%;}
+.vocation .vocationMain .art2 p{ text-align: center; font-size: 16px; color: #666}
+.vocation .vocationMain .art3{ position: absolute; top: 320px; left: 21%; width:75%; color: #666}
+.vocation .vocationMain .art3 p{ font-size: 16px; width: 80%;}
+.vocation .vocationMain .art3 p span{  text-align:left; float: left;}
+.vocation .vocationMain .art3 p b{  text-align:right; font-weight: normal; float: right;}
+.vocation .vocationMain .art4{ color: #666; position: absolute; top: 430px; left: 26%; width:60%;}
+.vocation .vocationMain .art4 p{ font-size: 16px; width: 80%;}
+.vocation .vocationMain .art4 p span{  text-align:left; float: left;}
+.vocation .vocationMain .art4 p b{  text-align:right; font-weight: normal; float: right;}
+/*--------行业应用 end------*/
+/*--------合作伙伴 start------*/ 
+.cooperate{ width: 100%; max-width: 1920px; background: #fff;}
+.cooperate .cooperateMain h1{ width: 270px; margin: 0 auto; background: #3da738; height: 3px;}
+.cooperate .cooperateMain h4{ text-align: center; font-size:36px; color: #454545; margin-top: 10px;}
+.cooperate .cooperateMain{ width: 1030px; margin: 0 auto;  padding:70px 0 160px; position: relative;}
+.cooperate .cooperateMain ul{ margin-top:70px; }
+.cooperate .cooperateMain ul li{ width: 25%; float: left;}
+.cooperate .cooperateMain ul li{ position: relative;}
+.cooperate .cooperateMain ul li span{ position: absolute; top: 20%; right: 0%; height: 84px; display: block; width: 2px; background: #e4e4e4}
+ .cooperate .cooperateMain ul li .onHover{ position: absolute; top: -13%;left:14%; width: 75%;display: none;} 
+.cooperate .cooperateMain ul li>div{ width: 184px; margin: 0 auto;}
+.cooperate .weixiBotton{ width: 100%; position: relative; max-width: 1920px; height: 210px; background: #3c3c3c;}
+.cooperate .weixiBotton .er{ position: absolute; right: 0; left: 50%; margin-left: -80px; top: -45%; width: 170px;}
+.cooperate .weixiBotton .er p{ text-align: center; font-size: 20px; color: #fff; margin-top: 2px}
+/*--------合作伙伴 end------*/
+/*--------脚部 start------*/
+.footer{width: 100%; max-width: 1920px; margin: 0 auto; background: #1f1f1f;}
+.footer .footerMain{ margin: 0 auto; width: 1030px; padding: 30px 0 40px;}
+.footer .footerMain li{ width: 313px; float: left; margin: 0 15px;}
+.footer .footerMain li h5{ height: 50px; line-height: 30px; border-bottom: 1px solid #999; width: 100%;}
+.footer .footerMain li div{ float: left; width:35px ; float: left;}
+.footer .footerMain li span{ float: left; width: ; float: left; color: #fffefe; font-size: 18px; margin-left: 10px}
+.footer .footerMain li p{color: #c2c2c2; font-size: 16px; padding-top: 15px; height: 40px; }
+  .footer .footerMain li a{color: #c2c2c2; font-size: 16px;  margin-top: 10px; display: block;}
+.footer .footerMain li h6{color: #c2c2c2; font-size: 16px; padding-top: 10px; }
+.footer .copyright{ width: 100%;  height: 70px; line-height: 70px; text-align: center; color: #fff; font-size: 16px; background: #121212; }
+/*--------脚部 end------*/ 
+/*--------头部 640-1000 start------*/
+ @media screen and (max-width: 1030px) and (min-width:640px){
+ .head{ height: 87px; width: 100%;  background: #fff;}
+ .head .headMidle{ width: auto; margin: 0 auto; position: relative;}
+ .head .headMidle .gongMax{right: 40px; top: 87px;}
+ .head .headMidle .weixiMax{right: 0px; top: 87px;}
+ .head .headMidle a{ width: 240px; }
+ .head .headMidle .aside{  width: 180px; margin-top: 15px;}
+ .head .headMidle  .gong{ width: 70px; height: 70px ; margin-right: 10px}
+ .head .headMidle  .weixi{ width: 80px; display: block; float: left;height: 70px}
+ .head .headMidle  span img{  width: 68%; margin: 0 auto;}
+ .head .headMidle  .weixi b{ width: 80px;}
+ .head .headMidle  .gong b{ width: 70px;}
+ .indexBanner{ width: 100%;  }
+ .indexBanner .bannerMidle{ width: auto; margin: 0 auto;}
+ .indexBanner img{ background: #ffd34f; } 
+ /*------微助手V1.0 start-----*/
+ .indexIphone{width: 100%; margin: 50px auto 30px; }
+ .indexIphone h1{ width: 280px; margin: 0 auto; background: #3da738; height: 4px;}
+ .indexIphone h4{ text-align: center; font-size: 30px; color: #000; font-weight: normal;}
+ .indexIphone .aside{ width:58%; float: left; margin-top: 30px;}
+ .indexIphone .article{ width: 40%; float: right;margin-top:30px;}
+ .indexIphone .article h2{ width: 20%; float: left; }
+ .indexIphone .mt{ margin-top: 5%;}
+ .indexIphone .text{ float: left; padding: 0 0% 0 5%; width:70%;}
+ .indexIphone .text h3{ font-size: 24px; font-weight: normal;}
+ .indexIphone .text p{ font-size: 16px; color: #666}
+ /*--------微助手V1.0  end------*/ 
+ /*--------社群时代 start------*/
+ .epoch .epochMain h1{ width: 200px; margin: 0 auto; height: 4px;}
+ .epoch .epochMain h4{  font-size: 30px;  font-weight:normal;}
+ .epoch .epochMain{ width: 100%; margin: 0 auto;  padding-top:30px; position: relative;}
+ .epoch .epochMain .epochImg{position: relative; left: 0%; top: 0px; width: 100%;}
+ .epoch .epochMain .arcBg1{ display: block;}
+ .epoch .epochMain .arcBg2{ display: none;}
+ .epoch .epochMain .articleOne{ position: absolute; left: 7.5%; top:31%; width: 150px}
+ .epoch .epochMain .articleOne h2{ font-size: 22px;  font-weight: normal;}
+ .epoch .epochMain .articleOne p{ font-size: 16px; }
+ .epoch .epochMain .articleTwo{ left: 25%; top:61%; width: 146px}
+ .epoch .epochMain .articleTwo h2{ font-size: 22px; font-weight: normal;}
+ .epoch .epochMain .articleTwo p{  font-size: 16px; }
+ .epoch .epochMain .articleThere{ position: absolute; left: 41%; top:37%; width: 150px}
+ .epoch .epochMain .articleThere h2{ font-size: 22px;  font-weight:normal;}
+ .epoch .epochMain .articleThere p{ font-size: 16px; }
+ .epoch .epochMain .articleFours{  left: 57%; top:13%; width: 145px}
+ .epoch .epochMain .articleFours h2{ font-size: 22px; font-weight:normal;}
+ .epoch .epochMain .articleFours p{  font-size: 16px; }
+ .epoch .epochMain .articleFit{  left: 57%; top:67%; width: 130px}
+ .epoch .epochMain .articleFit h2{  font-size: 22px;  font-weight: normal;}
+ .epoch .epochMain .articleFit p{ font-size: 18px;color: #666; }
+ .epoch .epochMain .articleSix{ left: 74%; top:36%; width:172px}
+ .epoch .epochMain .articleSix h2{  font-size: 22px;font-weight: normal;}
+ .epoch .epochMain .articleSix p{ font-size: 16px;}
+ /*--------社群时代 end------*/ 
+ /*--------我们的优势 start------ */
+ .advantage .advantageMain h1{ width: 200px; margin: 0 auto; height: 4px;}
+ .advantage .advantageMain h4{ font-size: 30px;  font-weight: normal;}
+ .advantage .advantageMain{ width: 100%; margin: 0 auto;  padding:50px 0;}
+ .advantage ul{ margin-top: 30px;}
+ .advantage ul li{ float: left; width: 25% }
+ .advantage ul li h3{ font-size:24px; font-weight:normal;  margin-top: 15px;}
+ .advantage ul li p{ font-size:18px; text-align: center; padding-top: 5px;}
+ .advantage ul li>div{ width: 80%; margin: 0 auto; }
+ /*--------我们的优势 end------ */
+ /*--------行业应用 start------*/ 
+ .vocation .vocationMain h1{ width: 200px; margin: 0 auto;  height: 4px;}
+ .vocation .vocationMain h4{ text-align: center; font-size: 30px; margin-top: 10px;}
+ .vocation .vocationMain{ width: 100%; margin: 0 auto;  padding:50px 0; }
+ .vocation .vocationText{ width: 100%; text-align: center; margin: 10px 0;}
+ .vocation .vocationText .p1{width: 50%; float: left;  font-size: 24px;  }
+ .vocation .vocationText .p2{width: 50%; float: left; font-size: 24px; }
+ .vocation .vocationMain  h3{ font-size: 24px; margin-top: 15px; }
+ .vocation .vocationMain .vocationImg{position: relative; left: 0%; top: 0px; width: 100%;}
+ .vocation .vocationMain .art1{ position: absolute; top: 10px; left: 0; width:100%;}
+ .vocation .vocationMain .art1 p{  width: 44%; float: left; margin-left: 2%;color: #666; font-size: 16px}
+ .vocation .vocationMain .art1 h6{width: 44%; float: right;font-size: 16px;margin-right: 1%; }
+ .vocation .vocationMain .art2{ position: absolute; top: 28%; left: 0; width:98%;}
+ .vocation .vocationMain .art2 p{ text-align: center; font-size: 16px;}
+ .vocation .vocationMain .art3{ position: absolute; top: 65%; left: 18%; width:79%;}
+ .vocation .vocationMain .art3 p{ font-size: 16px; width: 80%;}
+ .vocation .vocationMain .art4{ position: absolute; top: 93%; left: 25%; width:60%;}
+ .vocation .vocationMain .art4 p{ font-size: 16px; width: 80%;}
+ .vocation .vocationMain .art4 p b{  text-align:right; font-weight: normal; float: right;}
+ /*--------行业应用 end------*/
+ /*--------合作伙伴 start------ */
+ .cooperate .cooperateMain h1{ width: 220px; margin: 0 auto; height: 4px;}
+ .cooperate .cooperateMain h4{ text-align: center; font-size: 30px;  margin-top: 10px;}
+ .cooperate .cooperateMain{ width: 100%; margin: 0 auto;  padding:50px 0 15%; }
+ .cooperate .cooperateMain ul{ margin-top:50px; }
+ .cooperate .cooperateMain ul li>div{ width: 80%; margin: 0 auto;}
+ .cooperate .weixiBotton{  height: 150px; }
+ .cooperate .weixiBotton .er{  right: 0; left: 50%; margin-left: -80px; top: -45%; width: 20%;}
+ .cooperate .weixiBotton .er p{ font-size: 16px; margin-top: 2px}
+ /*/*--------合作伙伴 end------*/
+ /*--------脚部 start------*/
+ .footer .footerMain{ width: 100%; padding: 30px 0 20px;}
+ .footer .footerMain li{ width: 29%; float: left; margin: 0 2%;}
+ .footer .footerMain li h5{ height: 50px; line-height: 30px; border-bottom: 1px solid #999; width: 100%;}
+ .footer .footerMain li div{ float: left; width:14%; float: left;}
+ .footer .footerMain li span{ float: left; width: ; float: left; color: #fffefe; font-size: 16px; margin-left: 10px}
+ .footer .footerMain li p{color: #c2c2c2; font-size: 14px; padding-top: 20px; height: 40px; }
+ .footer .footerMain li h6{color: #c2c2c2; font-size: 14px; padding-top: 10px; }
+ .footer .copyright{ width: 100%;  height: 60px; line-height: 60px; text-align: center; color: #fff; font-size: 14px; background: #121212; }
+ /*--------脚部 end------*/
+} 
+/*--------头部 640-1000 end------*/
+/*--------头部 320-640 start------*/
+ @media screen and (max-width: 640px) and (min-width:320px){
+ 	.epoch .epochMain .epochImg{ background: #f2f2f2}
+ .head{ height: 70px; width: 100%;  background: #fff;}
+ .head .headMidle{ width: auto; margin: 0 auto; position: relative;}
+ .head .headMidle .gongMax{  right: 50%; margin-right: -28%; top: 87px;}
+ .head .headMidle .weixiMax{right: 50%; margin-right: -28%; top: 87px;}
+
+ .head .headMidle a{ width: 50%; }
+ .head .headMidle .aside{  width: 39%; margin-top: 2px;}
+ .head .headMidle  .gong{ width: 22%; height: auto;  margin-right: 20px; float: right;}
+ .head .headMidle  .weixi{ width: 22%; display: block; margin-right: 20px; float: left;height: 70px;float: right;}
+ .head .headMidle  span img{  width: auto; margin: 0 auto;}
+ .head .headMidle  .weixi b{ width: 100%; font-size: 12px}
+ .head .headMidle  .gong b{ width:100%; font-size: 12px}
+ .indexBanner{ width: 100%;  }
+ .indexBanner .bannerMidle{ width: auto; margin: 0 auto;}
+ .indexBanner img{ background: #ffd34f; }
+ /*------微助手V1.0 start-----*/
+ .indexIphone{width: 100%; margin:20px auto 20px; }
+ .indexIphone h1{ width:30%; margin: 0 auto;  height: 3px;}
+ .indexIphone h4{ text-align: center; font-size: 20px;  font-weight: normal;}
+ .indexIphone .aside{ width:80%; float: none; margin: 10px auto;}
+ .indexIphone .article{ width: 90%; float:none;margin: 10px auto;}
+ .indexIphone .article h2{ width: 15%; float: left; }
+ .indexIphone .mt{ margin-top: 4%;}
+ .indexIphone .text{ float: left; padding: 0 0% 0 3%; width:78%;}
+ .indexIphone .text h3{ font-size: 20px; font-weight: normal;}
+ .indexIphone .text p{ font-size: 14px; color: #666; margin-top: 5px}
+ /*--------微助手V1.0  end------*/  
+ /*--------社群时代 start------*/
+ .epoch .epochMain h1{ width: 150px; margin: 0 auto; height: 3px;}
+ .epoch .epochMain h4{  font-size: 24px;  font-weight:normal;}
+ .epoch .epochMain{ width: 100%; margin: 0 auto;  padding-top:30px; position: relative;}
+ .epoch .epochMain .articleOne{ position: absolute; left: 6.5%; top:24%; width: 100px}
+ .epoch .epochMain .articleOne h2{ font-size: 16px;  font-weight: normal;}
+ .epoch .epochMain .articleOne p{ font-size: 14px; }
+ .epoch .epochMain .articleTwo{ left: 22%; top:57%; width: 103px}
+ .epoch .epochMain .articleTwo h2{ font-size: 16px; font-weight: normal;}
+ .epoch .epochMain .articleTwo p{  font-size: 14px; }
+ .epoch .epochMain .articleThere{ position: absolute; left: 40%; top:31%; width: 95px}
+ .epoch .epochMain .articleThere h2{ font-size: 16px;  font-weight:normal;}
+ .epoch .epochMain .articleThere p{ font-size: 14px; }
+ .epoch .epochMain .articleFours{  left: 55.5%; top:6%; width: 95px}
+ .epoch .epochMain .articleFours h2{ font-size: 16px; font-weight:normal;}
+ .epoch .epochMain .articleFours p{  font-size: 14px; }
+ .epoch .epochMain .articleFit{  left: 50%; top:63%; width: 130px}
+ .epoch .epochMain .articleFit h2{  font-size: 16px;  font-weight: normal;}
+ .epoch .epochMain .articleFit p{ font-size: 14px;color: #666; }
+ .epoch .epochMain .articleSix{ left: 66%; top:28%; width:168px}
+ .epoch .epochMain .articleSix h2{  font-size: 16px;font-weight: normal;}
+ .epoch .epochMain .articleSix p{ font-size: 14px;}
+ /*--------社群时代 end------*/
+ /*--------我们的优势 start------*/ 
+ .advantage .advantageMain h1{ width: 150px; margin: 0 auto; height: 3px;}
+ .advantage .advantageMain h4{ font-size: 20px;  font-weight: normal;}
+ .advantage .advantageMain{ width: 100%; margin: 0 auto;  padding:30px 0;}
+ .advantage ul{ margin-top: 20px;}
+ .advantage ul li{ float: left; width: 25% }
+ .advantage ul li h3{ font-size:20px; font-weight:normal;  margin-top: 15px;}
+ .advantage ul li p{ font-size:16px; text-align: center; padding-top: 5px;}
+ .advantage ul li>div{ width: 80%; margin: 0 auto; }
+ /*--------我们的优势 end------*/
+  /*--------行业应用 start------*/ 
+  .vocation .vocationMain h1{ width: 150px; margin: 0 auto;  height: 3px;}
+  .vocation .vocationMain h4{  font-size: 20px; margin-top: 10px;}
+  .vocation .vocationMain{ width: 100%; margin: 0 auto;  padding:30px 0; }
+  .vocation .vocationText{ width: 100%; text-align: center; margin: 10px 0;}
+  .vocation .vocationText .p1{width: 50%; float: left;  font-size: 18px;  }
+  .vocation .vocationText .p2{width: 50%; float: left; font-size: 18px; }
+  .vocation .vocationMain  h3{ font-size: 18px; margin-top: 15px; }
+  .vocation .vocationMain .vocationImg{position: relative; left: 0%; top: 0px; width: 100%;}
+  .vocation .vocationMain .art1{ position: absolute; top: 10px; left: 0; width:100%;}
+  .vocation .vocationMain .art1 p{ width: 44%; float: left; margin-left: 2%;color: #000; font-size: 14px}
+  .vocation .vocationMain .art1 h6{width: 44%; float: right;font-size: 14px;margin-right: 1%; }
+  .vocation .vocationMain .art2{ position: absolute; top: 28%; left: 0; width:98%;}
+  .vocation .vocationMain .art2 p{ text-align: center; font-size: 14px;}
+  .vocation .vocationMain .art3{ position: absolute; top: 65%; left: 18%; width:79%;}
+  .vocation .vocationMain .art3 p{ font-size: 14px; width: 80%;}
+  .vocation .vocationMain .art4{ position: absolute; top: 93%; left: 25%; width:60%;}
+  .vocation .vocationMain .art4 p{ font-size: 14px; width: 80%;}
+    /*--------行业应用 end------*/
+    /*--------合作伙伴 start------*/
+    .cooperate .cooperateMain h1{ width: 180px; margin: 0 auto; height: 2px;}
+    .cooperate .cooperateMain h4{ text-align: center; font-size: 20px;  margin-top: 10px;}
+    .cooperate .cooperateMain{ width: 100%; margin: 0 auto;  padding:30px 0 10%; }
+    .cooperate .cooperateMain ul{ margin-top:30px; }
+.cooperate .cooperateMain ul li span{ top: 30%; height: 50px;}
+    .cooperate .cooperateMain ul li>div{ width: 90%; margin: 0 auto;}
+    .cooperate .weixiBotton{  height: 110px; }
+    .cooperate .weixiBotton .er{  right: 0; left: 50%; margin-left: -40px; top: -40%; width: 18%;}
+    .cooperate .weixiBotton .er p{ font-size: 14px; margin-top: 2px}
+    /*--------合作伙伴 end------*/
+    /*--------脚部 start------*/
+    .footer .footerMain{ width: 100%; padding: 30px 0 20px;}
+    .footer .footerMain li{ width: 80%; float: none; padding: 0 10%; margin: 15px 0 0;}
+    .footer .footerMain li h5{ height: 45px; line-height: 30px; border-bottom: 1px solid #999; width: 100%;}
+    .footer .footerMain li div{ float: left; width:8%; float: left;}
+    .footer .footerMain li span{ float: left; width: ; float: left; color: #fffefe; font-size: 16px; margin-left: 10px}
+    .footer .footerMain li p{color: #c2c2c2; font-size: 14px; padding-top: 5px; height: 20px; }
+    .footer .footerMain li a{font-size: 12px}
+    .footer .footerMain li h6{color: #c2c2c2; font-size: 14px; padding-top: 5px; }
+    .footer .copyright{ width: 100%;  height: 60px; line-height: 60px; text-align: center; color: #fff; font-size: 14px; background: #121212; }
+    /*--------脚部 end------ */
+} 
+/*--------头部 320-640 end------*/
+@media screen and (max-width: 850px) and (min-width:730px){
+    .epoch .epochMain .articleOne{ position: absolute; left: 6.3%; top:29%; width: 150px}
+    .epoch .epochMain .articleOne h2{ font-size: 22px;  font-weight: normal;}
+    .epoch .epochMain .articleOne p{ font-size: 16px; }
+    .epoch .epochMain .articleTwo{ left: 24%; top:60%; width: 130px}
+    .epoch .epochMain .articleTwo h2{ font-size: 22px; font-weight: normal;}
+    .epoch .epochMain .articleTwo p{  font-size: 16px; }
+    .epoch .epochMain .articleThere{  left: 42%; top:36%; width: 120px}
+    .epoch .epochMain .articleThere h2{ font-size: 22px;  font-weight:normal;}
+    .epoch .epochMain .articleThere p{ font-size: 16px; }
+    .epoch .epochMain .articleFours{  left: 57%; top:10%; width: 120px}
+    .epoch .epochMain .articleFours h2{ font-size: 22px; font-weight:normal;}
+    .epoch .epochMain .articleFours p{  font-size: 16px; }
+    .epoch .epochMain .articleFit{  left: 55%; top:66%; width: 130px}
+    .epoch .epochMain .articleFit h2{  font-size: 22px;  font-weight: normal;}
+    .epoch .epochMain .articleFit p{ font-size: 18px;color: #666; }
+    .epoch .epochMain .articleSix{ left: 72%; top:33%; width:172px}
+    .epoch .epochMain .articleSix h2{  font-size: 22px;font-weight: normal;}
+    .epoch .epochMain .articleSix p{ font-size: 16px;}
+}
+@media screen and (max-width: 730px) and (min-width:640px){
+    .epoch .epochMain .articleOne{ position: absolute; left: 4.3%; top:28%; width: 150px}
+    .epoch .epochMain .articleOne h2{ font-size: 22px;  font-weight: normal;}
+    .epoch .epochMain .articleOne p{ font-size: 16px; }
+    .epoch .epochMain .articleTwo{ left: 25%; top:57%; width: 110px}
+    .epoch .epochMain .articleTwo h2{ font-size: 22px; font-weight: normal;}
+    .epoch .epochMain .articleTwo p{  font-size: 16px; }
+    .epoch .epochMain .articleThere{  left: 41%; top:34%; width: 120px}
+    .epoch .epochMain .articleThere h2{ font-size: 22px;  font-weight:normal;}
+    .epoch .epochMain .articleThere p{ font-size: 16px; }
+    .epoch .epochMain .articleFours{  left: 56%; top:10%; width: 120px}
+    .epoch .epochMain .articleFours h2{ font-size: 22px; font-weight:normal;}
+    .epoch .epochMain .articleFours p{  font-size: 16px; }
+    .epoch .epochMain .articleFit{  left: 54%; top:63%; width: 130px}
+    .epoch .epochMain .articleFit h2{  font-size: 22px;  font-weight: normal;}
+    .epoch .epochMain .articleFit p{ font-size: 18px;color: #666; }
+    .epoch .epochMain .articleSix{ left: 70%; top:30%; width:172px}
+    .epoch .epochMain .articleSix h2{  font-size: 22px;font-weight: normal;}
+    .epoch .epochMain .articleSix p{ font-size: 16px;}
+}
+@media screen and (max-width: 480px) and (min-width:320px){
+    .head .headMidle  .gong{ width: 35%; height: auto;  margin-right: 20px; float: right;}
+    .head .headMidle  .weixi{ width: 35%; display: block; margin-right: 10px; float: left;height: 70px;float: right;}
+    /*--------社群时代 start------*/
+    .epoch .epochMain .arcBg1{ display: none;}
+    .epoch .epochMain .arcBg2{ display: block;width: 85%;margin: 0 auto;}
+    .epoch .epochMain h1{ width: 150px; margin: 0 auto; height: 3px;}
+    .epoch .epochMain h4{  font-size: 20px;  font-weight:normal;}
+    .epoch .epochMain{ width: 100%; margin: 0 auto;  padding-top:30px; position: relative;}
+    .epoch .epochMain .articleOne{ position: absolute; left: 14.5%; top:11%; width: 100px}
+    .epoch .epochMain .articleOne h2{ font-size: 14px;  font-weight: normal;}
+    .epoch .epochMain .articleOne p{ font-size: 12px; }
+    .epoch .epochMain .articleTwo{ left: 17%; top:62%; width: 81px}
+    .epoch .epochMain .articleTwo h2{ font-size: 14px; font-weight: normal;}
+    .epoch .epochMain .articleTwo p{  font-size: 10px; }
+    .epoch .epochMain .articleThere{ position: absolute; left: 36%; top:37%; width: 90px}
+    .epoch .epochMain .articleThere h2{ font-size: 14px;  font-weight:normal;}
+    .epoch .epochMain .articleThere p{ font-size: 10px; }
+    .epoch .epochMain .articleFours{  left: 49.5%; top:74%; width: 81px}
+    .epoch .epochMain .articleFours h2{ font-size: 14px; font-weight:normal;}
+    .epoch .epochMain .articleFours p{  font-size: 10px; }
+    .epoch .epochMain .articleFit{  left: 59%; top:49%; width: 110px}
+    .epoch .epochMain .articleFit h2{  font-size: 14px;  font-weight: normal;}
+    .epoch .epochMain .articleFit p{ font-size: 10px;color: #666; }
+    .epoch .epochMain .articleSix{ left: 53%; top:9%; width:130px}
+    .epoch .epochMain .articleSix h2{  font-size: 14px;font-weight: normal;}
+    .epoch .epochMain .articleSix p{ font-size: 10px;}
+    /*--------社群时代 end------*/ 
+    /*--------我们的优势 start------*/ 
+    .advantage .advantageMain h1{ width: 150px; margin: 0 auto; height: 2px;}
+    .advantage .advantageMain h4{ font-size: 20px;  font-weight: normal;}
+    .advantage .advantageMain{ width: 100%; margin: 0 auto;  padding:20px 0;}
+    .advantage ul{ margin-top: 10px;}
+    .advantage ul li{ float: left; width: 25% }
+    .advantage ul li h3{ font-size:14px; font-weight:normal;  margin-top: 10px;}
+    .advantage ul li p{ font-size:12px; text-align: center; padding-top: 5px;}
+    .advantage ul li>div{ width: 80%; margin: 0 auto; }
+    /*--------我们的优势 end------*/ 
+    /*--------合作伙伴 start------*/ 
+    .cooperate .cooperateMain h1{ width: 150px; margin: 0 auto; height: 2px;}
+    .cooperate .cooperateMain h4{font-size: 20px;  margin-top: 10px;}
+    .cooperate .cooperateMain{ width: 100%; margin: 0 auto;  padding:30px 0 10%; }
+    .cooperate .cooperateMain ul{ margin-top:10px; }
+    .cooperate .cooperateMain ul li>div{ width: 90%; margin: 0 auto;}
+    .cooperate .weixiBotton{  height: 80px; }
+    .cooperate .weixiBotton .er{  right: 0; left: 50%; margin-left: -38px; top: -40%; width: 22%;}
+    .cooperate .weixiBotton .er p{ font-size: 12px; margin-top: 2px}
+    /*--------合作伙伴 end------*/ 
+    /*--------脚部 start------*/
+    .footer .footerMain{ width: 100%; padding: 10px 0 10px;}
+    .footer .footerMain li{ width: 80%; float: none; padding: 0 10%; margin: 8px 0 0;}
+    .footer .footerMain li h5{ height: 42px; line-height: 32px; border-bottom: 1px solid #999; width: 100%;}
+    .footer .footerMain li div{ float: left; width:10%; float: left;}
+    .footer .footerMain li span{ float: left; width: ; float: left; color: #fffefe; font-size: 14px; margin-left: 10px}
+    .footer .footerMain li p{color: #c2c2c2; font-size: 12px; padding-top: 5px; height: auto; }
+    .footer .footerMain li h6{color: #c2c2c2; font-size: 12px; padding-top: 5px; }
+    .footer .copyright{ width: 100%;  height: 50px; line-height: 50px; font-size: 12px;  }
+    /*--------脚部 end------*/ 
+}
+@media screen and (max-width: 641px) and (min-width:500px){
+ .head .headMidle a{ width: 30%; }
+}
+@media screen and (max-width: 500px) and (min-width:380px){
+ .head .headMidle a{ width: 35%; }
+}
+@media screen and (max-width: 640px) and (min-width:560px){
+.epoch .epochMain .articleOne {left: 7.5% ; top: 24% ;}
+.epoch .epochMain .articleSix {left: 70%; top: 31%; width: 160px; } 
+.epoch .epochMain .articleThere {left: 42%; top: 34%; width: 95px;}
+.epoch .epochMain .articleFit {left: 53%; top: 65%; width: 130px; }
+.epoch .epochMain .articleTwo {left: 26%; top: 58%; width: 88px;}
+.epoch .epochMain .articleFours {left: 57.5%; top: 8%; width: 95px; }
+}
+@media screen and (max-width: 480px) and (min-width:380px){
+ .epoch .epochMain .articleOne {left: 17.5%; top: 11%;}
+ .epoch .epochMain .articleSix {left: 57%; top: 9%; }
+ .epoch .epochMain .articleThere { left: 38%; top: 39%; }
+ .epoch .epochMain .articleFit {left: 64%; top: 51%; width: 100px; }
+ .epoch .epochMain .articleTwo {left: 19%; top: 62%; width: 81px;}
+ .epoch .epochMain .articleFours {left: 51.5%; top: 74%; width: 81px; }
+  }
